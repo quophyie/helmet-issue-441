@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "target": "es2022",
+    "lib": ["es2022", "dom"],
+    "typeRoots": ["./node_modules/@types", "src/types"],
+    "allowJs": true,
+    "allowImportingTsExtensions": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strictPropertyInitialization": false,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "nodenext",
+    "moduleResolution": "nodenext",
+    "resolveJsonModule": true,
+    "isolatedModules": false,
+    "jsx": "react",
+    "pretty": true,
+    "sourceMap": true,
+    "noEmit": true,
+    "downlevelIteration": true,
+    "outDir": "./build",
+    "rootDir": "."
+  },
+  "include": ["./**/*.ts", "declarations/**/*"],
+  "exclude": ["build/**/*", "node_modules"]
+}
